@@ -1,5 +1,4 @@
-Description,Comment,Designator,Footprint,Part Number,Alternative Part,Quantity
-
+"Description","Comment","Designator","Footprint","Part Number","Alternative Part","Quantity"
 "Battery","MS621FE-FL11E","BAT1","MS621","MS621FE FL11E","","1"
 "Piezoelectric Sounders","L-KLS3-SMT-09X1.8","BUZ1","SPKR_PKMCS0909E4000-R1","L-KLS3-SMT-09X1.8","PKLCS1212E40A1-R1","1"
 "Capacitor","8pF 50V","C1, C2, C5, C6, C44, C45","C_0603","CC0603DRNPO9BN8R0","","6"
@@ -62,7 +61,7 @@ Description,Comment,Designator,Footprint,Part Number,Alternative Part,Quantity
 "Voltage regulator","LD3985M33R","U22","SOT23-5","LD3985M33R","","1"
 "Flash Memory","W25Q128JVEIQ","U23","W-PDFN-8 (MLP8) – 8mm ? 6mm  Se","W25Q128JVEIQ","","1"
 "Microcontroller","STM32F103CBT6","U24","LQFP48_L","STM32F103CBT6","","1"
-"17V Clamp 5A (8/20Aµs) Ipp Tvs Diode Surface Mount SOT-23-6","USBLC6-2SC6","U25","SOT95P280X145-6N","USBLC6-2SC6","","1"
+"17V Clamp 5A (8/20Âµs) Ipp Tvs Diode Surface Mount SOT-23-6","USBLC6-2SC6","U25","SOT95P280X145-6N","USBLC6-2SC6","","1"
 "Phy Eth 2/2 Transceiver Full RMII 24-QFN-EP _4x4_","LAN8720A-CP-TR","U26","QFN50P400X400X100-25N","LAN8720A-CP-TR","","1"
 "THR-3.5-12P","1787056","X1","DMC 1.5/ 6-G1F-3.5-LR P20THR 1787056","1787056","","1"
 "THR-3.5-24P","1787111","X2","DMC 1,5/12-G1F-3,5-LRP20THRR72","1787111","","1"
