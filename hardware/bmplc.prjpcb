@@ -290,6 +290,10 @@ DItemRevisionGUID=
 DocumentPath=..\doc\pcb\gerber\pcb.RUL
 DItemRevisionGUID=
 
+[GeneratedDocument19]
+DocumentPath=..\doc\pcb\Pick Place for pcb.csv
+DItemRevisionGUID=
+
 [DeviceSheetFolder1]
 Path=G:\_Ronavi\Altium\Formats\SCH_1\
 IncludeSubFolders=1

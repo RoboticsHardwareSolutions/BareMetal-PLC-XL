@@ -1,4 +1,4 @@
-DRC Rules Export File for PCB: C:\Users\Sergey\Desktop\comitas\robocontrloller-f7-miic-eth\hardware\pcb.pcbdoc
+DRC Rules Export File for PCB: C:\Users\Sergey\Desktop\comitas\BareMetal-PLC-XL\hardware\pcb.pcbdoc
 RuleKind=Width|RuleName=Width_eth|Scope=Board|Minimum=6.60
 RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=1.97
 RuleKind=Width|RuleName=Width|Scope=Board|Minimum=7.87
