@@ -1,5 +1,4 @@
 "Description","Comment","Designator","Footprint","Part Number","Alternative Part","Quantity"
-"","","","","","",""
 "Battery","MS621FE-FL11E","BAT1","MS621","MS621FE FL11E","","1"
 "Piezoelectric Sounders","L-KLS3-SMT-09X1.8","BUZ1","SPKR_PKMCS0909E4000-R1","L-KLS3-SMT-09X1.8","PKLCS1212E40A1-R1","1"
 "Capacitor","8pF 50V","C1, C2, C5, C6, C44, C45","C_0603","CC0603DRNPO9BN8R0","","6"
