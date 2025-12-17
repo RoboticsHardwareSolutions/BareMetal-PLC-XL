@@ -24,7 +24,7 @@
 "Diode","BZV55C10","D4","SOD80C","BZV55C10","","1"
 "Diode","SM5819PL-TP","D5, D6","SOD-123","SM5819PL-TP","","2"
 "Typical INFRARED GaAs LED","","D7, D8","LED_1206","KP-3216SGD","","2"
-"Кварцевый резонатор 25МГц, SMD 3.2x2.5мм с 4-мя контактами, 10пФ, точность 10ppm;","25MHz","G1","XTAL_ASE-50.000MHZ-LR-T","25000 SMD03225C410 10 10/-20~70CXMH1Г CREC","","1"
+"Crystal Oscillator","25MHz","G1","XTAL_ASE-50.000MHZ-LR-T","X322525MSB4SI","","1"
 "Inductor","CD54NP-221KC","L1","CD54NP","CD54NP-221KC","","1"
 "Inductor","1uH","L2","L_0603","LQM18FN1R0M00D","","1"
 "30V P-Channel  MOSFET","IRF7205","Q1","SO-8_M","IRF7205TRPBF","","1"
