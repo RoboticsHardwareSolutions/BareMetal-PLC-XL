@@ -24,7 +24,7 @@ ReorderDocumentsOnCompile=1
 NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
 AutoSheetNumbering=0
-AutoCrossReferences=0
+AutoCrossReferences=1
 NewIndexingOfSheetSymbols=1
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
@@ -33,22 +33,39 @@ FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
 IsVirtualBomDocumentRemoved=0
-OutputPath=
+OutputPath=Project Outputs for bmplc
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
 CrossRefSheetStyle=1
-CrossRefLocationStyle=1
-CrossRefPorts=3
+CrossRefLocationStyle=0
+CrossRefPorts=2
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
-CrossRefFollowFromMainSettings=1
+CrossRefFollowFromMainSettings=0
 
 [Preferences]
 PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=main.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=10
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=NBSWKWQP
+
+[Document2]
 DocumentPath=mcu.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -65,7 +82,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EGQWVBYX
 
-[Document2]
+[Document3]
 DocumentPath=interfaces.schdoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -82,7 +99,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YTRNWRLW
 
-[Document3]
+[Document4]
 DocumentPath=dcdc.schdoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -99,7 +116,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KAIIWJRX
 
-[Document4]
+[Document5]
 DocumentPath=qspi_flash.schdoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -116,7 +133,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NDXHTPLW
 
-[Document5]
+[Document6]
 DocumentPath=connections.schdoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -133,7 +150,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PJOCUYKI
 
-[Document6]
+[Document7]
 DocumentPath=pcb.pcbdoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -150,7 +167,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JYXJLSTM
 
-[Document7]
+[Document8]
 DocumentPath=rlink_eth.schdoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -167,7 +184,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=THDBHEKV
 
-[Document8]
+[Document9]
 DocumentPath=Job.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -184,7 +201,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document9]
+[Document10]
 DocumentPath=usb.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -201,7 +218,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MAVUWYXT
 
-[Document10]
+[Document11]
 DocumentPath=eth.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -218,79 +235,134 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SMHWYNLC
 
+[Document12]
+DocumentPath=eeprom.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=9
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=YBJGVTNG
+
+[Document13]
+DocumentPath=..\..\..\..\a.nikitin\Desktop\altguide-main_new\altguide-main\altlib\pcblibs\crystals_oscillators.pcblib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=TRHPKTLD
+
+[Document14]
+DocumentPath=..\..\..\..\a.nikitin\Desktop\altguide-main_new\altguide-main\altlib\schlibs\crystals_oscillators.schlib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SOXBKDCO
+
 [GeneratedDocument1]
-DocumentPath=..\doc\pcb\gerber\pcb-RoundHoles.TXT
+DocumentPath=Project Outputs for bmplc\Design Rule Check - pcb.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=..\doc\pcb\gerber\pcb-SlotHoles.TXT
+DocumentPath=..\doc\pcb\gerber\pcb-RoundHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument3]
-DocumentPath=..\doc\pcb\gerber\pcb.DRR
+DocumentPath=..\doc\pcb\gerber\pcb-SlotHoles.TXT
 DItemRevisionGUID=
 
 [GeneratedDocument4]
-DocumentPath=..\doc\pcb\gerber\pcb.EXTREP
+DocumentPath=..\doc\pcb\gerber\pcb.DRR
 DItemRevisionGUID=
 
 [GeneratedDocument5]
-DocumentPath=..\doc\pcb\gerber\pcb.G1
+DocumentPath=..\doc\pcb\gerber\pcb.EXTREP
 DItemRevisionGUID=
 
 [GeneratedDocument6]
-DocumentPath=..\doc\pcb\gerber\pcb.G2
+DocumentPath=..\doc\pcb\gerber\pcb.G1
 DItemRevisionGUID=
 
 [GeneratedDocument7]
-DocumentPath=..\doc\pcb\gerber\pcb.GBL
+DocumentPath=..\doc\pcb\gerber\pcb.G2
 DItemRevisionGUID=
 
 [GeneratedDocument8]
-DocumentPath=..\doc\pcb\gerber\pcb.GBO
+DocumentPath=..\doc\pcb\gerber\pcb.GBL
 DItemRevisionGUID=
 
 [GeneratedDocument9]
-DocumentPath=..\doc\pcb\gerber\pcb.GBP
+DocumentPath=..\doc\pcb\gerber\pcb.GBO
 DItemRevisionGUID=
 
 [GeneratedDocument10]
-DocumentPath=..\doc\pcb\gerber\pcb.GBS
+DocumentPath=..\doc\pcb\gerber\pcb.GBP
 DItemRevisionGUID=
 
 [GeneratedDocument11]
-DocumentPath=..\doc\pcb\gerber\pcb.GM1
+DocumentPath=..\doc\pcb\gerber\pcb.GBS
 DItemRevisionGUID=
 
 [GeneratedDocument12]
-DocumentPath=..\doc\pcb\gerber\pcb.GTL
+DocumentPath=..\doc\pcb\gerber\pcb.GM1
 DItemRevisionGUID=
 
 [GeneratedDocument13]
-DocumentPath=..\doc\pcb\gerber\pcb.GTO
+DocumentPath=..\doc\pcb\gerber\pcb.GTL
 DItemRevisionGUID=
 
 [GeneratedDocument14]
-DocumentPath=..\doc\pcb\gerber\pcb.GTP
+DocumentPath=..\doc\pcb\gerber\pcb.GTO
 DItemRevisionGUID=
 
 [GeneratedDocument15]
-DocumentPath=..\doc\pcb\gerber\pcb.GTS
+DocumentPath=..\doc\pcb\gerber\pcb.GTP
 DItemRevisionGUID=
 
 [GeneratedDocument16]
-DocumentPath=..\doc\pcb\gerber\pcb.LDP
+DocumentPath=..\doc\pcb\gerber\pcb.GTS
 DItemRevisionGUID=
 
 [GeneratedDocument17]
-DocumentPath=..\doc\pcb\gerber\pcb.REP
+DocumentPath=..\doc\pcb\gerber\pcb.LDP
 DItemRevisionGUID=
 
 [GeneratedDocument18]
-DocumentPath=..\doc\pcb\gerber\pcb.RUL
+DocumentPath=..\doc\pcb\gerber\pcb.REP
 DItemRevisionGUID=
 
 [GeneratedDocument19]
+DocumentPath=..\doc\pcb\gerber\pcb.RUL
+DItemRevisionGUID=
+
+[GeneratedDocument20]
 DocumentPath=..\doc\pcb\Pick Place for pcb.csv
 DItemRevisionGUID=
 
@@ -419,7 +491,7 @@ TerminationPrefC7=0
 TerminationVCC7=5
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for bmplc
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -789,11 +861,6 @@ OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType9=GOSTBOM
-OutputName9=GOST BOM
-OutputDocumentPath9=
-OutputVariantName9=[No Variations]
-OutputDefault9=0
 
 [OutputGroup7]
 Name=Other Outputs
