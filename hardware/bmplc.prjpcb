@@ -49,6 +49,23 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
+DocumentPath=draftsman.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VHMWLQDD
+
+[Document2]
 DocumentPath=main.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -65,7 +82,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NBSWKWQP
 
-[Document2]
+[Document3]
 DocumentPath=mcu.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -82,7 +99,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EGQWVBYX
 
-[Document3]
+[Document4]
 DocumentPath=interfaces.schdoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -99,7 +116,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YTRNWRLW
 
-[Document4]
+[Document5]
 DocumentPath=dcdc.schdoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -116,7 +133,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KAIIWJRX
 
-[Document5]
+[Document6]
 DocumentPath=qspi_flash.schdoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -133,7 +150,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NDXHTPLW
 
-[Document6]
+[Document7]
 DocumentPath=connections.schdoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -150,7 +167,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PJOCUYKI
 
-[Document7]
+[Document8]
 DocumentPath=pcb.pcbdoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -167,7 +184,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JYXJLSTM
 
-[Document8]
+[Document9]
 DocumentPath=rlink_eth.schdoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -184,7 +201,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=THDBHEKV
 
-[Document9]
+[Document10]
 DocumentPath=Job.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -201,7 +218,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document10]
+[Document11]
 DocumentPath=usb.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -218,7 +235,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MAVUWYXT
 
-[Document11]
+[Document12]
 DocumentPath=eth.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -235,7 +252,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SMHWYNLC
 
-[Document12]
+[Document13]
 DocumentPath=eeprom.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -252,7 +269,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YBJGVTNG
 
-[Document13]
+[Document14]
 DocumentPath=..\..\..\..\a.nikitin\Desktop\altguide-main_new\altguide-main\altlib\pcblibs\crystals_oscillators.pcblib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -269,7 +286,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TRHPKTLD
 
-[Document14]
+[Document15]
 DocumentPath=..\..\..\..\a.nikitin\Desktop\altguide-main_new\altguide-main\altlib\schlibs\crystals_oscillators.schlib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -286,7 +303,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SOXBKDCO
 
-[Document15]
+[Document16]
 DocumentPath=..\..\..\..\a.nikitin\Desktop\altguide-main_new\altguide-main\altlib\pcblibs\dcdc_ldo_ref.pcblib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -303,7 +320,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EDGWYOAD
 
-[Document16]
+[Document17]
 DocumentPath=..\..\..\..\a.nikitin\Desktop\altguide-main_new\altguide-main\altlib\schlibs\dcdc_ldo_ref.schlib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -320,7 +337,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PUUOVIHT
 
-[Document17]
+[Document18]
 DocumentPath=..\..\..\..\a.nikitin\Desktop\altguide-main_new\altguide-main\altlib\schlibs\diode.schlib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -337,7 +354,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WSREXIYD
 
-[Document18]
+[Document19]
 DocumentPath=..\..\..\..\a.nikitin\Desktop\altguide-main_new\altguide-main\altlib\pcblibs\diode.pcblib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -354,7 +371,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document19]
+[Document20]
 DocumentPath=..\..\..\..\a.nikitin\Desktop\altguide-main\altlib\schlibs\resistors.schlib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -371,7 +388,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UUVACNOP
 
-[Document20]
+[Document21]
 DocumentPath=..\..\..\..\a.nikitin\Desktop\altguide-main\altlib\pcblibs\resistors.pcblib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -388,7 +405,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document21]
+[Document22]
 DocumentPath=..\..\..\..\a.nikitin\Desktop\altguide-main_new\altguide-main\altlib\pcblibs\capacitors.pcblib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -405,7 +422,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document22]
+[Document23]
 DocumentPath=..\..\..\..\a.nikitin\Desktop\altguide-main_new\altguide-main\altlib\schlibs\capacitors.schlib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1215,6 +1232,36 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
+OutputType13=Ansoft Neutral
+OutputName13=Ansoft Neutral (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=HyperLynx
+OutputName14=HyperLynx (AutoPCB)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=Orcad v7 Capture Design
+OutputName15=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD ASCII
+OutputName16=P-CAD ASCII (AutoPCB)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=P-CAD V16 Schematic Design
+OutputName17=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=SiSoft
+OutputName18=SiSoft (AutoPCB)
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
