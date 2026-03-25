@@ -15,13 +15,13 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=job.outjob
+Name=Job.OutJob
 Description=
-TargetOutputMedium=3D STEP
+TargetOutputMedium=P&P
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=OneNote (???????????? ??????) — ??????????
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -97,7 +97,7 @@ OutputName2=Generates pick and place files
 OutputCategory2=Assembly
 OutputDocumentPath2=PCB.PcbDoc
 OutputVariantName2=
-OutputEnabled2=0
+OutputEnabled2=1
 OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=1
 OutputEnabled2_OutputMedium3=0
@@ -131,14 +131,16 @@ Configuration3_Name2=General
 Configuration3_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=0|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
 Configuration3_Name3=GroupOrder
 Configuration3_Item3=Comment=True|Footprint=True
-Configuration3_Name4=VisibleOrder
-Configuration3_Item4=Description=191|Comment=120|Designator=120|Footprint=120|Part=100|Alternative Part=100|Quantity=120
-Configuration3_Name5=VisibleOrder_Base
-Configuration3_Item5=Description=183|Comment=116|Designator=161|Footprint=152|Quantity=67
-Configuration3_Name6=VisibleOrder_Consolidated
-Configuration3_Item6=Line #=100|Comment=100|Description=100|Designator=100|Quantity=100|Manufacturer 1=101|Manufacturer Part Number 1=170|Manufacturer Lifecycle 1=147|Supplier 1=74|Supplier Part Number 1=143|Supplier Unit Price 1=127|Supplier Subtotal 1=120
-Configuration3_Name7=VisibleOrder_Flat
-Configuration3_Item7=Description=191|Comment=120|Designator=120|Footprint=120|Part=100|Alternative Part=100|Quantity=120
+Configuration3_Name4=SortOrder
+Configuration3_Item4=Designator=Up|Comment=Up|Footprint=Up
+Configuration3_Name5=VisibleOrder
+Configuration3_Item5=Description=191|Comment=120|Designator=120|Footprint=120|Part=100|Alternative Part=100|JLCPCB Part=100|Quantity=120
+Configuration3_Name6=VisibleOrder_Base
+Configuration3_Item6=Description=183|Comment=116|Designator=161|Footprint=152|Quantity=67
+Configuration3_Name7=VisibleOrder_Consolidated
+Configuration3_Item7=Line #=100|Comment=100|Description=100|Designator=100|Quantity=100|Manufacturer 1=101|Manufacturer Part Number 1=170|Manufacturer Lifecycle 1=147|Supplier 1=74|Supplier Part Number 1=143|Supplier Unit Price 1=127|Supplier Subtotal 1=120
+Configuration3_Name8=VisibleOrder_Flat
+Configuration3_Item8=Description=191|Comment=120|Designator=120|Footprint=120|Part=100|Alternative Part=100|JLCPCB Part=100|Quantity=120
 OutputType4=Schematic Print
 OutputName4=Schematic Prints
 OutputCategory4=Documentation
@@ -196,7 +198,7 @@ OutputName7=Export STEP
 OutputCategory7=Export
 OutputDocumentPath7=PCB.PcbDoc
 OutputVariantName7=
-OutputEnabled7=1
+OutputEnabled7=0
 OutputEnabled7_OutputMedium1=0
 OutputEnabled7_OutputMedium2=0
 OutputEnabled7_OutputMedium3=0
@@ -280,7 +282,7 @@ Configuration11_Name1=OutputConfigurationParameter1
 Configuration11_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|GenerateSeparateViaTypeFiles=False|NumberOfDecimals=5|NumberOfUnits=2|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Imperial|ZeroesMode=SuppressTrailingZeroes|DocumentPath=\\Mac\Home\Yandex.Disk.localized\Development\Jobs\RHS\rPLC\robocontrloller-f7-miic-hardware\hardware\PCB.pcbdoc
 
 [PublishSettings]
-OutputFilePath2=\\Mac\Home\projects\dm\plc_adaptor\doc\pcb\
+OutputFilePath2=C:\Users\a.nikitin.KFT\Desktop\BareMetal-PLC-XL\doc\pcb\
 ReleaseManaged2=0
 OutputBasePath2=..\doc\pcb\
 OutputPathMedia2=
@@ -387,7 +389,7 @@ OutputFileNameSpecial8=
 OpenOutput8=0
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=\\Mac\Home\projects\dm\plc_adaptor\doc\pcb\
+RelativeOutputPath2=C:\Users\a.nikitin.KFT\Desktop\BareMetal-PLC-XL\doc\pcb\
 OpenOutputs2=0
 AddToProject2=1
 TimestampFolder2=0
